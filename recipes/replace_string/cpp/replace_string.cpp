@@ -8,7 +8,7 @@
  * @param[in] to "from" is changed to "to".
  * @return Replaced string
  */
-std::string stringReplace(const std::string target,
+std::string replaceString(const std::string target,
 			  const std::string from,
 			  const std::string to) {
   std::string result = target;
@@ -31,7 +31,7 @@ int main(int argc, char *argv[]) {
   std::string target = std::string(argv[1]);
   std::string from   = std::string(argv[2]);
   std::string to     = std::string(argv[3]);
-  std::cout << stringReplace(target, from, to) << std::endl;
+  std::cout << replaceString(target, from, to) << std::endl;
   return 0;
 }
 
