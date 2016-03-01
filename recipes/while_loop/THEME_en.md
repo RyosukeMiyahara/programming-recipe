@@ -1,2 +1,1 @@
-Do repetitive processing by while loop.
-
+Do repetitive processing by while loop
