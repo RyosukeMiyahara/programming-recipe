@@ -1,0 +1,1 @@
+Get absolute value
