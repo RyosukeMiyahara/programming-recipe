@@ -1,4 +1,4 @@
-Concatenate string literals (string enclised in double quotes).
+Concatenate string literals (string enclosed in double quotes).
 To concatenate strings simply, use + operator. 
 Since Java8, join method is added to String class, to concatenate strings with delimiter easily. 
 However, if string is concatenated several times, + operator may affect performance. 
