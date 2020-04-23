@@ -1,4 +1,4 @@
-switchの後ろのカッコ内には結果が整数となるものを指定し、caseには整数、文字定数、定数の式を指定します。
-それ以外の場合はifとelse ifを使用しましょう。
-breakがあるとそこで処理が終了し、breakがなければ次のcaseへ処理が続きます。
-どのcaseにも一致しない場合、defaultがあればその処理を行います。
+Specify variable which has integer on braces after switch, and specify integer, string, or const value for case.
+If you want to use another condition, use 'if' and 'else if'. 
+Process stops at 'break'. If there is no 'break', process continues to next 'case'.
+If there is 'default' and the variable does not match any 'case', 'default' is processed. 
