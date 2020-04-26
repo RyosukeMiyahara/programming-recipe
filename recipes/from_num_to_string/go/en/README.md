@@ -1,2 +1,3 @@
-数値型を文字列に変換（フォーマット）します。
-型がわからないときには、fmt.Sprint()を使うと良いかもしれません。
+Format from Number type to String type. 
+If you don't know type, you may use fmt.Sprint().
+
