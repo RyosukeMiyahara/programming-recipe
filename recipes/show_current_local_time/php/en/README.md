@@ -1,4 +1,3 @@
-指定したタイムゾーンで、指定したフォーマットで時刻を表示します。
-フォーマットの指定の仕方はこちら
+Show current time with specified timezone and specified format.
+Please refer to the following URL how to specify the format.
 http://php.net/manual/ja/function.date.php
-を参考にしてください。
