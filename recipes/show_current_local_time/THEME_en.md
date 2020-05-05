@@ -1,1 +1,1 @@
-Show current local time.
+Show current local time
