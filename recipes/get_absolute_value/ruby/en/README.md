@@ -1,2 +1,2 @@
-対象となる数値の絶対値を取得します。
-整数の場合も小数の場合も、Numericクラスのabsメソッドを使用します。
+Get absolute value of target.
+Use abs method of Numeric class for both of integer and float.
