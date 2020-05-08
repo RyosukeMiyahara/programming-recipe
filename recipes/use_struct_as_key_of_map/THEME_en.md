@@ -1,1 +1,1 @@
-Mapのキーとして、自分で定義した構造体を利用する
+Use struct defined by myseld as key of Map
