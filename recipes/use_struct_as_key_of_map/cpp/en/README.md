@@ -9,7 +9,7 @@ Of course, there is another implementation of comparison operator.
 
 It is required that comparison operator need to be defined to be able to decide small or large clearly.
 The author took a long time to debug, when the author wrote wrong code for comparison operator.
-
+For example, comparison operator implemented as to return false when int key is 0 and in other case to return true, values couldn't be stored and plucked out.
 Even if comparison operator is not implemented properly, first data can be stored and plucked out.
 If behavior seems wrong when struct defined by yourself used as key of map, first, you should check process of comparison operator. 
 
@@ -23,6 +23,6 @@ If behavior seems wrong when struct defined by yourself used as key of map, firs
 
 # ただ一点注意しなければならないのが、比較演算子は適切に大小を比較できるように定義してあげなければいけません。
 # 当たり前じゃないかと思われるかもしれませんが、筆者は一度、ここで落とし穴にはまってしまい、デバッグに時間がかかったことがあります。。
-極端な話、intのキーに対して0だったらfalse、それ以外はtrueを返す、というような処理にしちゃうと、正しく比較できなくなり、正常に取り出すことはおろか、格納することすらできなくなってしまうと思います。
+# 極端な話、intのキーに対して0だったらfalse、それ以外はtrueを返す、というような処理にしちゃうと、正しく比較できなくなり、正常に取り出すことはおろか、格納することすらできなくなってしまうと思います。
 # 恐ろしいのは、コンパイルはそれでも通りますし、一つ目のデータは問題なく格納も取り出すこともできてしまうとこです。
 # 自分で定義した構造体やクラスをmapのキーにして動作がおかしかったら、まずは比較演算子の処理の中身を疑ってみるといいかも知れません。
