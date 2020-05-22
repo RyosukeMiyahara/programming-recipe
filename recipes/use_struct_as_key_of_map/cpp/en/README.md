@@ -1,7 +1,7 @@
 You can use struct or class defined by yourself as key of std::map of C++.
 Here, how to use struct defined by myself as key of std::map is introduced.
 
-Among keys need to be comperable to find specified file from map, because std::map stores data as binary tree.
+Among keys need to be compagit rable to find specified file from map, because std::map stores data as binary tree.
 So not only data but also comparison operator need to be defined for struct defined by myself.
 
 Here, sample code which uses int and char[100] struct as key is introduced.
