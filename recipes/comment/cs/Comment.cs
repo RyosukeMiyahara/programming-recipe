@@ -11,6 +11,6 @@ class Comment {
 	    line 2
 	*/
 	/* this comment style can be embedded in statement */
-	Console.WriteLine("This WriteLine statement line includes " /* comment */ "comment\n");
+	Console.WriteLine("This WriteLine statement line includes " /* comment */ + "comment\n");
 	}
 }
