@@ -1,7 +1,7 @@
 Embed comment into source code.
 // handles string after // as comments.
 // can be written after statement like function, assigning variable, etc...
-/* - -*/ handles string included by /* */ as comments.
+/* - */ handles string included by /* */ as comments.
 /* - */ can be embedded between statements.
 
 # ソースコード中にコメントを埋め込みます。
