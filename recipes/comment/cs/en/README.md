@@ -3,6 +3,7 @@ Embed comment into source code.
 // can be written after statement like function, assigning variable, etc...
 /* - */ handles string included by /* */ as comments.
 /* - */ can be embedded between statements.
+/* - */ can not be embedded into other /* - */.
 
 # ソースコード中にコメントを埋め込みます。
 # //は、//以降の文字列をコメントとして扱います。
@@ -10,4 +11,4 @@ Embed comment into source code.
 # /* 〜 */は、囲まれた部分（〜）をコメントとして扱います。
 /* */では複数行のコメントを書くことができます。
 # 関数や変数への代入など、プログラム文の中に埋め込むこともできます。
-/* */の中に/* */を入れ子にして書くことはできません。
+# /* */の中に/* */を入れ子にして書くことはできません。
