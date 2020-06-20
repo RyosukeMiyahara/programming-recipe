@@ -4,5 +4,5 @@ Embed comment into source code.
 # also can be used like //
 /* - */ handles string included by /* */ as comments. 
 /* - */ can be embedded between statements.
-/* - :/ can handle multiple comment lines.
+/* - */ can handle multiple comment lines.
 /* - */ can not be embedded into other /* - */. 
