@@ -1,0 +1,4 @@
+Get absolute value of argument.
+
+// 引数で与えた数値の絶対値を取得します。
+整数の場合も、小数の場合も、System.MathクラスのAbs()を使用します。
